@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+header{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#navbarContainer{
+    width: 1208px;
+    height: 84px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+#NavbarLeft{
+    width: 100px;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+#navbarMiddle{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+#navbarMiddle a{
+    color: black;
+    cursor: pointer;
+    font-size: 21px;
+    text-decoration: none;
+}
+
+#navbarRight{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px; 
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+#navbarRightRight{
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+#loginBtn{
+    background-color: white;
+    border: none;
+     border-color: none;
+     cursor: pointer;
+}
+#RegiterBtn{
+    background-color: transparent;
+    border: none;
+}
+#SearchBtn,#LikedBtn,#ListBtn{
+    background-color: transparent;
+    border: none;
+}

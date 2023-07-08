@@ -1,0 +1,26 @@
+#section7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.instagramAccount{
+    display: none;
+}
+#section7Container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 320px;
+}
+.section7Card{
+    width:20%;
+    height: 100%;
+    transition: 0.7s;
+}
+.section7Card img{
+    width: 100%;
+    height: 100%;
+}
+.section7Card:hover{
+    background-color: white;
+}

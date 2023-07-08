@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#section1Container{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+}
+#sectin1Left{
+    width: 50%;
+    height: 638px;
+    display: flex;
+    justify-content: start;
+    padding-left: 40px;
+    align-items: center;
+    background-color: #FAE3D9;
+    position: relative;
+}
+#girlPictureContain{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+#section1LeftWords{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    width: 480px;
+    display: flex;
+
+}
+h2{
+    font-size: 40px;
+}
+
+#section1ShopBtn{
+    background-color: transparent;
+    border: 2px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: black;
+    width: 100px;
+    cursor: pointer;
+}
+
+#section1Right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+}
+.section1RightPart{
+    display: flex;
+    flex-direction: row;
+    column-gap: 12px;
+}
+.section1Card{
+    width: 391px;
+    height: 314px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14px;
+    flex-direction: column;
+    row-gap: 14px;
+}
+.section1Card button{
+    background-color: transparent;
+    border: 2px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: black;
+    width: 100px;
+    cursor: pointer;
+}
+#girlPhoto{
+    height: 600px;
+}
+.section1Card:nth-child(1){
+    background-color: #BEE2D6;
+}
+.section1Card:nth-child(2){
+    background-color: #D6D4F0;
+}
+.section1Card:nth-child(3){
+    background-color: pink;
+}
+.section1Card:nth-child(4){
+    background-color: #CEE2F5;
+}

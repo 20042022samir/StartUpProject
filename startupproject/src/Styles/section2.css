@@ -1,0 +1,99 @@
+#section2{
+ display: flex;
+ justify-content: center;
+ align-items: center; 
+ margin-top: 20px;  
+}
+#section2Container{
+    width: 1280px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+#section2Up{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 7px;
+    align-items: center;
+}
+#upWordsSection2{
+    display: flex;
+    flex-direction: row;
+}
+#upWordsSection2 h2:first-child{
+    border: 2px solid black;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+#section2Choice{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+.section2ChoiceBtn{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+#section2Down{
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px; 
+    justify-content: center;
+}
+.section2Card{
+    width: 280px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    margin-bottom: 120px;   
+    cursor: pointer;
+}
+.section2CardData{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 5px;
+}
+.section2CardData p:nth-child(2){
+    font-weight: 20px;
+}
+.section2Card:nth-child(1){
+    position: relative;
+}
+.section2Card:nth-child(3){
+    position: relative;
+}
+#newTag{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 100px;
+    height: 30px;
+    border-radius:10px ;
+    background-color: green;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#outofstockMessage{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 100px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
